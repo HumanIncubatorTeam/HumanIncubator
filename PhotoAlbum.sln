@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Album.Core", "Album.Core", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Album.UI", "Album.UI", "{404B27E5-F46B-4284-BF70-109F8697422E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum.Entities", "PhotoAlbumData\PhotoAlbum.Entities.csproj", "{30394166-26FC-4799-8075-42EFF99BAB40}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum.Entities", "PhotoAlbum.Core\PhotoAlbum.Entities.csproj", "{30394166-26FC-4799-8075-42EFF99BAB40}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum.Data", "PhotoAlbum.Data\PhotoAlbum.Data.csproj", "{F9D7B612-26B7-43B8-935E-BF619AD0508F}"
 EndProject
