@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum", "PhotoAlbum\PhotoAlbum.csproj", "{B9B6A2F6-50B2-4813-9F43-21A6562C7361}"
 EndProject
@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Album.Core", "Album.Core", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Album.UI", "Album.UI", "{404B27E5-F46B-4284-BF70-109F8697422E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum.Entities", "PhotoAlbum.Core\PhotoAlbum.Entities.csproj", "{30394166-26FC-4799-8075-42EFF99BAB40}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum.Data", "PhotoAlbum.Data\PhotoAlbum.Data.csproj", "{F9D7B612-26B7-43B8-935E-BF619AD0508F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum.Infastracture", "PhotoAlbum.Infastracture\PhotoAlbum.Infastracture.csproj", "{58B37B55-DBF3-4175-8DAE-66BA7059CB52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum.Entities", "PhotoAlbum.Entities\PhotoAlbum.Entities.csproj", "{6D34CB56-C232-4844-B5F0-F5D129292352}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,6 @@ Global
 		{B9B6A2F6-50B2-4813-9F43-21A6562C7361}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9B6A2F6-50B2-4813-9F43-21A6562C7361}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9B6A2F6-50B2-4813-9F43-21A6562C7361}.Release|Any CPU.Build.0 = Release|Any CPU
-		{30394166-26FC-4799-8075-42EFF99BAB40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{30394166-26FC-4799-8075-42EFF99BAB40}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{30394166-26FC-4799-8075-42EFF99BAB40}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{30394166-26FC-4799-8075-42EFF99BAB40}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F9D7B612-26B7-43B8-935E-BF619AD0508F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F9D7B612-26B7-43B8-935E-BF619AD0508F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9D7B612-26B7-43B8-935E-BF619AD0508F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,14 +33,18 @@ Global
 		{58B37B55-DBF3-4175-8DAE-66BA7059CB52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58B37B55-DBF3-4175-8DAE-66BA7059CB52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58B37B55-DBF3-4175-8DAE-66BA7059CB52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D34CB56-C232-4844-B5F0-F5D129292352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D34CB56-C232-4844-B5F0-F5D129292352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D34CB56-C232-4844-B5F0-F5D129292352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D34CB56-C232-4844-B5F0-F5D129292352}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B9B6A2F6-50B2-4813-9F43-21A6562C7361} = {404B27E5-F46B-4284-BF70-109F8697422E}
-		{30394166-26FC-4799-8075-42EFF99BAB40} = {AC4C3702-E71E-4512-B028-E995A31F56BE}
 		{F9D7B612-26B7-43B8-935E-BF619AD0508F} = {AC4C3702-E71E-4512-B028-E995A31F56BE}
 		{58B37B55-DBF3-4175-8DAE-66BA7059CB52} = {AC4C3702-E71E-4512-B028-E995A31F56BE}
+		{6D34CB56-C232-4844-B5F0-F5D129292352} = {AC4C3702-E71E-4512-B028-E995A31F56BE}
 	EndGlobalSection
 EndGlobal
