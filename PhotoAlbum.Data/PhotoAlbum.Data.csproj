@@ -44,12 +44,6 @@
     <Compile Include="IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\PhotoAlbum.Core\PhotoAlbum.Entities.csproj">
-      <Project>{30394166-26fc-4799-8075-42eff99bab40}</Project>
-      <Name>PhotoAlbum.Entities</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
