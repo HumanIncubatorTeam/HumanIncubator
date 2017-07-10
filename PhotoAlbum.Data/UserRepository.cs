@@ -45,9 +45,5 @@ namespace PhotoAlbum.Data
             return db.Users;
         }
 
-        public void Save()
-        {
-            db.SaveChanges();
-        }
     }
 }

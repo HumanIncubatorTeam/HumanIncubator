@@ -13,6 +13,6 @@ namespace PhotoAlbum.Data
         void Create(T item);
         void Edit(T item);
         void Delete(Guid id);
-        void Save();
+
     }
 }
